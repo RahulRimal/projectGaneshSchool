@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Roboto&family=Roboto+Condensed&display=swap');
+
+:root {
+  --primary-color: #f04b35;
+  --secondary-color: #0D6EFD;
+  --primary-bg-color: #f3f5fa;
+  --main-box-shadow: 6px 4px 7px 1px rgba(0,0,0,0.57);
+    --border-main-color: #E8E8E8;
+    --primary-hover-color: #E8442B;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Important Styling Starts here  */
+
+body {
+  background-color: var(--primary-bg-color) !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.read-more-icon
+{
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.read-more-icon i
+{
+  font-size: 35px;
+}
+
+
+.person-image img
+{
+  position: relative;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  margin: 8%;
+}
+
+.person-image p
+{
+  position: absolute;
+  bottom: -13%;
+  left: 21%;
+  color: var(--primary-color);
+  font-style: italic;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px)
+{
+  .person-image p
+  {
+    bottom: -16%;
+    left: 31%;
+  }  
+}
+
+/* Important Styling ends here  */
+
+
+/* Topbar starts here */
+#top-bar {
+  background-color: var(--primary-color);
+  height: 35px;
+  line-height: 35px;
+}
+
+.top-bar-content {
+  color: white;
+}
+
+/* Topbar ends here */
+
+/* Header Starts here */
+#header .nav-link {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+/* Header ends here */
+
+
+/* home page starts here */
+
+/* testmonial starts heres */
+.home-testimonial {
+  background-color:#01959c;
+  margin-top: 20px;
+  height: 380px;
+  
+  }
+
+.home-testimonial-bottom {
+  background-color:lightblue;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 130px;
+  top: 190px
+}
+
+.home-testimonial h3 {
+  color: var(--orange);
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+.home-testimonial h2 {
+  color:rgb(145, 20, 20);
+  
+  font-size: 28px;
+  font-weight: 700;
+  
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px
+}
+
+.color-grey-3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.testimonial-inner img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none
+}
+
+.link-name {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2
+}
+
+/* testmonial ends heres */
+
+
+@media only screen and (max-width: 768px)
+{
+  #message-p .message-pic img
+{
+  width: 100%;
+}
+}
+
+/* home page ends here */
+
+
+/* Contact Page starts here */
+
+
+/* Contact Description starts here */
+
+#contact-desc i
+{
+  color: var(--primary-color);
+}
+
+
+/* Contact Description ends here */
+
+/* Contact form starts here */
+
+#contact-main
+{
+    height: 400px;
+}
+
+.contact-box-main
+/* .login-main, .signup-main */
+{
+    display: inline-block;
+    border: 2px solid var(--border-main-color);
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+
+.contact-box-heading
+{
+    background: #0D6EFD;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 0 1px 0;
+}
+
+.contact-box-body
+{
+    padding: 30px 10px;
+    width: 100%;
+
+}
+
+.contact-box-body input
+{
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+.contact-box-body input:focus
+{
+    outline: 2px solid var(--primary-color);
+}
+
+.remember-login-btn, .remember-signup-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.remember-me
+{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+
+.contact-submit-btn
+{
+    border: 1px solid var(--border-main-color);
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .contact-main
+    {
+        width: 100%;
+    }
+
+    .contact-submit-btn
+    {
+        width: 100%;
+    }
+}
+  
+/* Contact Page endss here */
+
+/* Apply form starts here */
+.apply-form
+{
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+  box-shadow: -8px -4px 35px -7px rgba(0,0,0,0.67) inset;
+-webkit-box-shadow: -8px -4px 35px -7px rgba(0,0,0,0.67) inset;
+-moz-box-shadow: -8px -4px 35px -7px rgba(0,0,0,0.67) inset;
+}
+/* Apply form ends here */
+
+
+/*Gallery photo starts here*/
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*Gallery photo ends here*/
+
