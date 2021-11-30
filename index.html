@@ -48,72 +48,73 @@
 
   <!-- Header starts here -->
 
-
   <header id="header" class="sticky-top bg-primary">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary mx-5">
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="w-75" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto mx-5">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Plus +2
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Management </a>
-              <a class="dropdown-item" href="#">Agriculture</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Humanities</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              About Us
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">About Us</a>
-              <a class="dropdown-item" href="#">Management Team</a>
-              <a class="dropdown-item" href="#">Administrative Staff</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Faculty Members</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Gallery
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Photo Gallery</a>
-              <a class="dropdown-item" href="#">Video Gallery</a>
-         
-            </div>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Notices</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Apply Online</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Us</a>
-          </li>
+    <div id="main-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary mx-5">
+        <a class="navbar-brand m-0 p-0" href="index.html"><img src="images/logo.png" width="200px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mx-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Plus +2
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Management </a>
+                <a class="dropdown-item" href="#">Agriculture</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Humanities</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">About Us</a>
+                <a class="dropdown-item" href="#">Management Team</a>
+                <a class="dropdown-item" href="#">Administrative Staff</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Faculty Members</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="picGallery.html">Photo Gallery</a>
+                <a class="dropdown-item" href="#">Video Gallery</a>
 
-        </ul>
-        <form class="form-inline my-2 my-lg-0 d-flex justify-content-between">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light my-2 my-sm-0" style="margin-left: 2px;" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Notices</a>
+            </li>
+            <li class="nav-item">
+              <a href="apply.html" class="nav-link">Apply Online</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0 d-flex justify-content-between">
+            <input class="form-control mr-sm-2 m-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
 
   </header>
 
@@ -159,7 +160,7 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam libero nemo incidunt minus eveniet at
                 consequuntur modi nam sit harum corrupti expedita mollitia quam magni, alias provident voluptatum natus
                 voluptas corporis nihil voluptates cum perferendis.</p>
-              <div class="read-more-icons d-none">
+              <div id="p-message-read-more-icons">
                 <a class="read-more-icon p-1 mx-1" src="#">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
@@ -167,8 +168,10 @@
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
               </div>
-              <a class="fa fa-heart" style="color: var(--primary-color); cursor: pointer;"
-                onclick="toggleReadMoreIcons(this)"> Read More</a>
+              <!-- <a class="fa fa-heart" style="color: var(--primary-color); cursor: pointer;"
+                onclick="toggleReadMoreIcons(this)"> Read More</a> -->
+              <a id="p-message-read-more" class="fa fa-heart" style="color: var(--primary-color); cursor: pointer;">
+                Read More</a>
               <h2> Jograj Kunwar</h2>
             </div>
           </div>
@@ -190,41 +193,117 @@
       <div>
         <p class="h1 text-center text-primary my-4">Our +2 Programs</p>
       </div>
-      <div class="container">
-        <div class="row d-flex justify-content-between">
-          <div class="col-md-4 text-center">
-            <h2>Agriculture </h2>
-            <img src="images/agriculture.png" alt="" height="220">
-            <p class="text-justify px-3">Lorem here is my name did you get this ipsum dolor sit amet consectetur
-              adipisicing elit. Expedita
-              quaerat
-              ipsam distinctio fugiat, assumenda dolores neque pariatur temporibus? Omnis, repellat!
-            </p>
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-white card-has-bg click-col"
+                style="background-image:url('images/agriculture.png');">
+                <img class="card-img d-none" src="images/bird.jpg" alt="">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="card-body">
+                    <small class="card-meta mb-2">Our Program</small>
+                    <h4 class="card-title mt-0 ">
+                      <a class="text-white" herf="#">Agriculture</a>
+                    </h4>
+                    <!-- <small><i class="far fa-clock"></i> October 15, 2020</small> -->
+                  </div>
+                  <div class="card-footer">
+                    <div class="media">
+                      <!-- <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px"> -->
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block text-justify">Lorem ipsum dolor sit amet, consectetur
+                          adipisicing elit. Sit aspernatur repellat facere omnis porro temporibus quos laborum?
+                          Repudiandae nihil officiis, hic nemo nesciunt et modi soluta impedit, quasi commodi tenetur.
+                        </h6>
+                        <a class="btn btn-danger" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          </div>
-          <div class="col-md-4 text-center">
-            <h2>Mangement</h2>
-            <img src="images/agriculture.png" alt="" height="220">
-            <p class="text-justify px-3">Lorem here is my name did you guess it ipsum dolor sit amet consectetur
-              adipisicing elit. Nesciunt quia
-              odio fuga explicabo dolores amet non laboriosam recusandae laborum. Nobis!
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <h2>Humanities</h2>
-            <img src="images/agriculture.png" alt="" height="220">
-            <p class="text-justify px-3">Lorem ipsum, here is my name did you know it dolor sit amet consectetur
-              adipisicing elit. Dolor,
-              similique
-              cumque a tempore maiores incidunt. Repellendus amet quam alias placeat?
-            </p>
+            <div class="col-md-4">
+              <div class="card text-white card-has-bg click-col" style="background-image:url('images/castle.jpg');">
+                <img class="card-img d-none" src="images/bird.jpg" alt="">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="card-body">
+                    <small class="card-meta mb-2">Our Program</small>
+                    <h4 class="card-title mt-0 ">
+                      <a class="text-white" herf="#">Management</a>
+                    </h4>
+                    <!-- <small><i class="far fa-clock"></i> October 15, 2020</small> -->
+                  </div>
+                  <div class="card-footer">
+                    <div class="media">
+                      <!-- <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px"> -->
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block text-justify">Lorem ipsum dolor sit amet, consectetur
+                          adipisicing elit. Sit aspernatur repellat facere omnis porro temporibus quos laborum?
+                          Repudiandae nihil officiis, hic nemo nesciunt et modi soluta impedit, quasi commodi tenetur.
+                        </h6>
+                        <a class="btn btn-danger" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="card text-white card-has-bg click-col" style="background-image:url('images/bird.jpg');">
+                <img class="card-img d-none" src="images/bird.jpg" alt="">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="card-body">
+                    <small class="card-meta mb-2">Our Program</small>
+                    <h4 class="card-title mt-0 ">
+                      <a class="text-white" herf="#">Humanities</a>
+                    </h4>
+                    <!-- <small><i class="far fa-clock"></i> October 15, 2020</small> -->
+                  </div>
+                  <div class="card-footer">
+                    <div class="media">
+                      <!-- <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px"> -->
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block text-justify">Lorem ipsum dolor sit amet, consectetur
+                          adipisicing elit. Sit aspernatur repellat facere omnis porro temporibus quos laborum?
+                          Repudiandae nihil officiis, hic nemo nesciunt et modi soluta impedit, quasi commodi tenetur.
+                        </h6>
+                        <a class="btn btn-danger" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!--Plus2 programs ends here-->
+
+    <!-- College ad starts here -->
+
+    <div class="college-ad position-relative">
+      <div class="college-ad-image-and-overlay">
+        <div style="
+          background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
+          height: 400px;
+          background-size: cover;
+          margin-bottom: 20px;
+        ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 400px;">
+        </div>
+        </div>
+      </div>
+      <div class="college-ad-text text-center">
+        <h5>Best college on the farwest</h5>
+        <a href="about.html">Know more about Us</a>
+      </div>
+    </div>
+    <!-- College ad ends here -->
 
     <!--Ours facilities starts here -->
 
@@ -451,19 +530,19 @@
               <img src="images/staffs-admins/tem.JPG" width="150px" height="150px" alt="">
               <p>Rahul Rimal</p>
             </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="person-image">
-            <img src="images/staffs-admins/tem.JPG" width="150px" height="150px" alt="">
-            <p>Rahul Rimal</p>
-          </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="person-image">
               <img src="images/staffs-admins/tem.JPG" width="150px" height="150px" alt="">
               <p>Rahul Rimal</p>
             </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="person-image">
+              <img src="images/staffs-admins/tem.JPG" width="150px" height="150px" alt="">
+              <p>Rahul Rimal</p>
             </div>
+          </div>
 
 
 
@@ -476,50 +555,59 @@
 
     <section class="home-testimonial">
       <div class="container-fluid">
-          <div class="row d-flex justify-content-center testimonial-pos">
-              <div class="col-md-12 pt-4 d-flex justify-content-center">
-                  <h3>Testimonials</h3>
-              </div>
-              <div class="col-md-12 d-flex justify-content-center">
-                  <h2>Sucess Story of ours students</h2>
-              </div>
+        <div class="row d-flex justify-content-center testimonial-pos">
+          <div class="col-md-12 pt-4 d-flex justify-content-center">
+            <h3>Testimonials</h3>
           </div>
-          <section class="home-testimonial-bottom">
-              <div class="container testimonial-inner">
-                  <div class="row d-flex justify-content-center">
-                      <div class="col-md-4 style-3">
-                          <div class="tour-item ">
-                              <div class="tour-desc bg-white">
-                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
-                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png" alt=""></div>
-                                  <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
-                                  <div class="link-position d-flex justify-content-center">Web developer</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-4 style-3">
-                          <div class="tour-item ">
-                              <div class="tour-desc bg-white">
-                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
-                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png" alt=""></div>
-                                  <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
-                                  <div class="link-position d-flex justify-content-center">Web developer</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-4 style-3">
-                          <div class="tour-item ">
-                              <div class="tour-desc bg-white">
-                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
-                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png" alt=""></div>
-                                  <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
-                                  <div class="link-position d-flex justify-content-center">Web developer</div>
-                              </div>
-                          </div>
-                      </div>
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2>Sucess Story of ours students</h2>
+          </div>
+        </div>
+        <section class="home-testimonial-bottom">
+          <div class="container testimonial-inner">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-4 style-3">
+                <div class="tour-item ">
+                  <div class="tour-desc bg-white">
+                    <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a
+                      rigorous comprehensive college preparatory curriculum with healthy social and emotional
+                      development.”</div>
+                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png"
+                        alt=""></div>
+                    <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
+                    <div class="link-position d-flex justify-content-center">Web developer</div>
                   </div>
-          </section>
-  </section>
+                </div>
+              </div>
+              <div class="col-md-4 style-3">
+                <div class="tour-item ">
+                  <div class="tour-desc bg-white">
+                    <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a
+                      rigorous comprehensive college preparatory curriculum with healthy social and emotional
+                      development.”</div>
+                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png"
+                        alt=""></div>
+                    <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
+                    <div class="link-position d-flex justify-content-center">Web developer</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 style-3">
+                <div class="tour-item ">
+                  <div class="tour-desc bg-white">
+                    <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a
+                      rigorous comprehensive college preparatory curriculum with healthy social and emotional
+                      development.”</div>
+                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="images/ganesh.png"
+                        alt=""></div>
+                    <div class="link-name d-flex justify-content-center">Ganesh Kunwar</div>
+                    <div class="link-position d-flex justify-content-center">Web developer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </section>
     <!--testmonial for students ends heres-->
 
     <!-- Main section ends here -->
@@ -535,6 +623,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
       </script>
+
+    <script src="js/jqery.min.js"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
       </script>
