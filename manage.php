@@ -3,7 +3,11 @@
 <?php
 $template = new Template('templates/management.php');
 
-
 echo $template;
 
 ?>
+
+
+
+
+

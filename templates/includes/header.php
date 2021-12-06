@@ -18,14 +18,20 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo BASE_URI;?>templates/css/custom.css">
 
-  <!-- CK editor -->
-  <script src="<?php echo BASE_URI;?>templates/js/ckeditor/ckeditor.js"></script>
+  <!-- Lightbox CSS -->
+<link rel="stylesheet" href="<?php echo BASE_URI;?>templates/lightbox/dist/css/strip.css">
 
   <!-- LightSlider CSS -->
   <link type="text/css" rel="stylesheet" href="<?php echo BASE_URI;?>templates/css/lightslider.css" />
 
-  <title>School Project</title>
+  <!-- Vivify CSS -->
+  <!-- <link rel="stylesheet" href="<?php echo BASE_URI;?>templates/css/vivify/vivify.min.css"> -->
+  <link rel="stylesheet" href="<?php echo BASE_URI;?>templates/css/vivify.min.css">
+  
+  <!-- CK editor -->
+  <script src="<?php echo BASE_URI;?>templates/js/ckeditor/ckeditor.js"></script>
 
+  <title>School Project</title>
 </head>
 
 <body>
@@ -73,7 +79,7 @@
                 Plus +2
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Management </a>
+                <a class="dropdown-item" href="<?php echo BASE_URI;?>manage.php">Management </a>
                 <a class="dropdown-item" href="#">Agriculture</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Humanities</a>
@@ -86,10 +92,11 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="<?php echo BASE_URI;?>about.php">About Us</a>
-                <a class="dropdown-item" href="<?php echo BASE_URI;?>manage.php">Management Team</a>
+                <a class="dropdown-item" href="<?php echo BASE_URI;?>managers.php">Management Team</a>
                 <a class="dropdown-item" href="<?php echo BASE_URI;?>admins.php">Administrative Staff</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Faculty Members</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="<?php echo  BASE_URI;?>eca.php">ECA</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -122,6 +129,9 @@
       </nav>
     </div>
 
+    <?php echo displayMessage();?>
+
   </header>
+
 
   <!-- Header ends here -->

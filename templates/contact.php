@@ -13,7 +13,6 @@
     </div>
   </section>
 
-
   <div id="contact-desc">
     <div class="container">
       <div class="row">
@@ -21,14 +20,13 @@
           <div class="contact-desc-content">
             <h2>Contact us </h2>
             <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Prabha Dayagada,Achham</p>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> contact@school.com</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> contact@prabhadaya.com</p>
             <p><i class="fa fa-phone" aria-hidden="true"></i> 081540394</p>
           </div>
         </div>
         <div class="col-md-6">
           <!-- Leaving it for the blank space -->
         </div>
-
 
         <section id="contact-main" class="w-100 text-center my-5">
           <div class="container">
