@@ -117,7 +117,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Notices</a>
+                  <a href="<?php echo BASE_URI;?>notice.php" class="nav-link">Notices</a>
                 </li>
                 <li class="nav-item">
                   <a href="<?php echo BASE_URI; ?>apply.php" class="nav-link">Apply Online</a>

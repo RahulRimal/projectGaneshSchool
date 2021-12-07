@@ -110,6 +110,17 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid" style="background: var(--primary-color); border-top: 1px solid white;">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <div class="footer-bottom-content">
+          <p class="m-0">Made with <span><i class="fas fa-heart"></i></span> by Ganesh Kunwar</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
   </div>
 
   <div id="scroll-to-top">

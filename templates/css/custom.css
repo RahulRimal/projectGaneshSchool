@@ -660,6 +660,7 @@ footer-quick-links ul li::before {
   font-size: 25px;
   border-radius: 15px;
   cursor: pointer;
+  border: 2px solid white;
   /* display: none; */
 }
 
