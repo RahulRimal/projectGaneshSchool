@@ -3,7 +3,7 @@
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_NAME", "prabha_damkot");
+define("DB_NAME", "prabha_dhamkot"); 
 
 define("SITE_TITLE", "PrabhaDamkot S.S");
 

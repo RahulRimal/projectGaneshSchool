@@ -14,7 +14,7 @@
                 <li class="d-flex align-items-center">
                   <i class="fas fa-map-marker-alt" style="font-size: 25px;"></i>
                   <div class="address-info">
-                    <p><span><strong>Address:</strong><br></span>Blakumari-Kharibot, Lalitpur</p>
+                    <p><span><strong>Address:</strong><br></span>Prabha Dayagada, Achham</p>
                   </div>
                 </li>
 
@@ -28,7 +28,7 @@
                 <li class="d-flex align-items-center">
                   <i class="fas fa-envelope"></i>
                   <div class="address-info">
-                    <p><span><strong>Email:</strong><br></span>Blakumari-Kharibot, Lalitpur</p>
+                    <p><span><strong>Email:</strong><br></span>mail@ourschool.com</p>
                   </div>
                 </li>
               </ul>

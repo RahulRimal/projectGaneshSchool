@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-md-4">
           <label for="fname">Contact Adress:</label>
-          <input type="text" class="form-control" id="CAddress" name="contactadress" placeholder="city or village or ward no" value=""> <br>
+          <input type="text" class="form-control" id="CAddress" name="contactaddress" placeholder="city or village or ward no" value=""> <br>
         </div>
         <div class="col-md-4">
           <label for="fname">Mobile Number:</label>

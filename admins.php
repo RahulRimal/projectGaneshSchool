@@ -3,7 +3,6 @@
 <?php
 $template = new Template('templates/admins.php');
 
-
 echo $template;
 
 ?>

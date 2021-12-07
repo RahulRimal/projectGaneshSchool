@@ -47,3 +47,12 @@ function displayMessage()
     else
         echo '';
 }
+
+
+function isLoggedIn()
+{
+    if(isset($_SESSION['isLoggedIn']))
+        return true;
+    else
+        return false;
+}

@@ -60,12 +60,10 @@ li {
   font-weight: 500;
 }
 
-.lslide
-{
+.lslide {
   display: flex;
   justify-content: center;
 }
-
 
 @media only screen and (max-width: 768px) {
   .person-image p {
@@ -104,7 +102,6 @@ li {
 /* Header ends here */
 
 /* home page starts here */
-
 
 /* Message P starts here */
 
@@ -329,50 +326,40 @@ li {
 /* home page ends here */
 
 /* Management Team page starts here */
-.management-members .card-img-top
-{
-  height: 290px!important;
+.management-members .card-img-top {
+  height: 290px !important;
 }
 
 /* Management Team page starts here */
 
 /* Management Page starts here */
 
-#course-brief .brief-icon-container
-{
+#course-brief .brief-icon-container {
   background: var(--primary-color);
   border-radius: 10px;
   color: white;
-
 }
 
-
-#course-brief .brief-title
-{
+#course-brief .brief-title {
   font-size: 20px;
   font-weight: 700;
 }
 
-#course-aim .heading-box
-{
+#course-aim .heading-box {
   border-bottom: 3px solid var(--primary-color);
   width: 4%;
 }
 
-
-#course-aim h6
-{
-  font-size: 25px!important;
+#course-aim h6 {
+  font-size: 25px !important;
   font-weight: 400;
 }
-
 
 /* Management Page ends here */
 
 /* Admin page starts here */
-.admin-members .card-img-top
-{
-  height: 210px!important;
+.admin-members .card-img-top {
+  height: 210px !important;
 }
 
 /* Management page starts here */
@@ -504,17 +491,119 @@ li {
 
 /*Gallery photo ends here*/
 
+/* Online form admin side starts here */
+
+#online-form .input {
+  width: 500px;
+  border-bottom: 2px dotted gray;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+/* Online form admin side ends here */
+
+/* Login Page starts here */
+
+#login_signup-main
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+.login-main, .signup-main
+{
+    display: inline-block;
+    border: 2px solid var(--border-main-color);
+    border-radius: 7px;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+.login-box-heading, .signup-box-heading
+{
+    background: var(--primary-color);
+    border-radius: 7px;
+    padding: 5px 0 1px 0;
+}
+
+.login-box-body, .signup-box-body
+{
+    padding: 30px 10px;
+    width: 100%;
+
+}
+
+.login-box-body input, .signup-box-body input
+{
+    margin: 10px 0;
+    width: 90%;
+
+}
+
+.login-box-body input:focus, .signup-box-body input:focus
+{
+    outline: 2px solid var(--primary-color);
+}
+
+.remember-login-btn, .remember-signup-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.remember-me
+{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.remember-me input
+{
+    width: 10%;
+    cursor: pointer;
+}
+.remember-me label
+{
+    padding-top: 3.5%;
+}
+
+
+
+.login-submit-btn, .signup-submit-btn
+{
+    border: 1px solid var(--border-main-color);
+    background: var(--primary-color);
+    border-radius: 7px;
+    padding: 3px;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .login-main, .signup-main
+    {
+        width: 100%;
+    }
+}
+
+/* Login Page endss here */
+
+
+
 /* Footer starts here */
 
-#footer
-{
+#footer {
   margin-top: 100px;
   padding-top: 20px;
   background: white;
 }
 
-.footer-widget h4
-{
+.footer-widget h4 {
   color: var(--primary-color);
 }
 
@@ -524,60 +613,54 @@ li {
   margin-right: 15px;
 }
 
-.footer-widget a:hover
-{
+.footer-widget a:hover {
   color: var(--primary-color);
 }
 
-footer-quick-links ul li::before
-{
+footer-quick-links ul li::before {
   color: var(--primary-color);
 }
 
-.form-control:focus, .form-select:focus {
+.form-control:focus,
+.form-select:focus {
   border-color: var(--primary-color) !important;
   box-shadow: 0px 0px 14px -1px rgba(240, 75, 53, 1);
   -webkit-box-shadow: 0px 0px 14px -1px rgba(240, 75, 53, 1);
   -moz-box-shadow: 0px 0px 14px -1px rgba(240, 75, 53, 1);
 }
 
-
-.footer-bottom
-{
+.footer-bottom {
   background: var(--primary-color);
   color: white;
   height: 40px;
   line-height: 40px;
 }
 
-.footer-bottom-menu a
-{
+.footer-bottom-menu a {
   color: white;
   padding: 0 5px;
   border-right: 2px solid black;
 }
 
-.footer-bottom-menu a:hover
-{
+.footer-bottom-menu a:hover {
   color: black;
 }
 
 /* Scroll to top starts here */
 
-.scroll-to-top-box
-{
-	position: fixed;
+.scroll-to-top-box {
+  position: fixed;
   /* width: 100px;
   height: 100px!important; */
-	right: 10px;
-	bottom: 45px;
-	background: var(--primary-color);
-	color: white;
-	padding: 7px 15px;
+  right: 10px;
+  bottom: 45px;
+  background: var(--primary-color);
+  color: white;
+  padding: 7px 15px;
   font-size: 25px;
-	border-radius: 15px;
-	cursor: pointer;
-	/* display: none; */
+  border-radius: 15px;
+  cursor: pointer;
+  /* display: none; */
 }
 
 /* Scroll to top ends here */
